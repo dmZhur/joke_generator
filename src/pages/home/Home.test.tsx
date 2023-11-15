@@ -4,9 +4,9 @@ import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import * as utils from '../store/features/jokeSlice';
+import * as utils from '../../store/features/jokeSlice';
 
-import HomePage from './home';
+import HomePage from './Home';
 
 const middlewares = [thunk];
 const mockStore = configureStore(middlewares);

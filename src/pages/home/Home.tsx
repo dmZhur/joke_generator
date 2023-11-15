@@ -10,19 +10,19 @@ import Checkbox from '@mui/material/Checkbox';
 import Box from '@mui/material/Box';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { makeStyles } from '@mui/styles';
-import { NavigationButton } from '../components/NavigationButton';
-import { MainWrapper } from '../components/MainWrapper';
-import { WarningModal } from '../components/WarningModal';
-import { useAppSelector, useAppDispatch } from '../store';
+import { NavigationButton } from '../../components/NavigationButton';
+import { MainWrapper } from '../../components/MainWrapper';
+import { WarningModal } from '../../components/WarningModal';
+import { useAppSelector, useAppDispatch } from '../../store';
 import {
   fetchJokes,
   addJoke,
   addToFavorites,
   removeFromFavorites,
-} from '../store/features/jokeSlice';
-import Joke from '../interfaces/joke';
-import logo from '../assets/images/chucknorris_logo.png';
-import { messages } from '../constants/messages';
+} from '../../store/features/jokeSlice';
+import Joke from '../../interfaces/joke';
+import logo from '../../assets/images/chucknorris_logo.png';
+import { messages } from '../../constants/messages';
 
 const useStyles = makeStyles(
   () => ({
@@ -85,7 +85,6 @@ const HomePage: FC = () => {
     if (!jokes.jokes?.length) {
       dispatch(fetchJokes());
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

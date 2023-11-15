@@ -27,5 +27,5 @@ export const persistor = persistStore(store);
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppThunkDispatch = ThunkDispatch<RootState, any, any>;
-export const useAppDispatch = () => useDispatch<AppThunkDispatch>();
+export const useAppDispatch = useDispatch<AppThunkDispatch>;
 export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;

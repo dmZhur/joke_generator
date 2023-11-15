@@ -8,11 +8,11 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { makeStyles } from '@mui/styles';
-import { NavigationButton } from '../components/NavigationButton';
-import { MainWrapper } from '../components/MainWrapper';
-import { useAppSelector, useAppDispatch } from '../store';
-import { removeFromFavorites } from '../store/features/jokeSlice';
-import Joke from '../interfaces/joke';
+import { NavigationButton } from '../../components/NavigationButton';
+import { MainWrapper } from '../../components/MainWrapper';
+import { useAppSelector, useAppDispatch } from '../../store';
+import { removeFromFavorites } from '../../store/features/jokeSlice';
+import Joke from '../../interfaces/joke';
 
 const useStyles = makeStyles(
   () => ({

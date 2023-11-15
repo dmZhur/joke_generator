@@ -4,9 +4,9 @@ import { MemoryRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import * as utils from '../store/features/jokeSlice';
+import * as utils from '../../store/features/jokeSlice';
 
-import FavoritePage from './favorite';
+import FavoritePage from './Favorite';
 
 const middlewares = [thunk];
 const mockStore = configureStore(middlewares);
@@ -41,6 +41,7 @@ describe('FavoritePage Component', () => {
       },
     });
     const titleElement = component.getByText('Favorites jokes list');
+
     expect(titleElement).toBeInTheDocument();
   });
 
@@ -52,6 +53,7 @@ describe('FavoritePage Component', () => {
       },
     });
     const spy = jest.spyOn(utils, 'removeFromFavorites');
+
     fireEvent.click(component.getByTestId('icon-button'));
     expect(spy).toHaveBeenCalled();
   });

@@ -1,6 +1,6 @@
 import IRoute from '../interfaces/route';
-import FavoritePage from '../pages/favorite';
-import HomePage from '../pages/home';
+import FavoritePage from '../pages/favorite/Favorite';
+import HomePage from '../pages/home/Home';
 
 const routes: IRoute[] = [
   {

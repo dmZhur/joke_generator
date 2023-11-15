@@ -11,7 +11,7 @@ const initialState: JokeState = {
   favorites: [],
 };
 
-export const fetchJokes = createAsyncThunk('jokes/fetch', async (thunkAPI) => {
+export const fetchJokes = createAsyncThunk('jokes/fetch', async () => {
   const response = await fetch(
     'https://api.chucknorris.io/jokes/search?query=dev',
     {
@@ -22,7 +22,7 @@ export const fetchJokes = createAsyncThunk('jokes/fetch', async (thunkAPI) => {
   return data;
 });
 
-export const addJoke = createAsyncThunk('joke/fetch', async (thunkAPI) => {
+export const addJoke = createAsyncThunk('joke/fetch', async () => {
   const response = await fetch('https://api.chucknorris.io/jokes/random', {
     method: 'GET',
   });
