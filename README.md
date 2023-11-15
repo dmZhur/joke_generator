@@ -1,6 +1,5 @@
-
 > Technical assignment
 
 > npx prettier --write .
 
->  yarn run start
+> yarn run start

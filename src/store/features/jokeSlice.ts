@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import Joke from '../../interfaces/joke';
 
-interface JokeState {
+export interface JokeState {
   jokes: Joke[];
   favorites: Joke[];
 }

@@ -113,6 +113,7 @@ const HomePage: FC = () => {
                 key={item.id}
                 secondaryAction={
                   <IconButton
+                    data-testid="icon-button"
                     onClick={() =>
                       favoritesIds.includes(item.id)
                         ? removeHandler(item)

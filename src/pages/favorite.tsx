@@ -63,7 +63,10 @@ const FavoritePage: FC = () => {
               className={classes.list}
               key={`${item.id}${index}`}
               secondaryAction={
-                <IconButton onClick={() => removeHandler(item)}>
+                <IconButton
+                  data-testid="icon-button"
+                  onClick={() => removeHandler(item)}
+                >
                   <DeleteIcon />
                 </IconButton>
               }
