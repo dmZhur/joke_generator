@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/dmZhur/joke_generator/static/js/main.fabcbd5b.chunk.js",
-    "main.js.map": "/dmZhur/joke_generator/static/js/main.fabcbd5b.chunk.js.map",
-    "runtime-main.js": "/dmZhur/joke_generator/static/js/runtime-main.3ce3578d.js",
-    "runtime-main.js.map": "/dmZhur/joke_generator/static/js/runtime-main.3ce3578d.js.map",
-    "static/js/2.fd8c1a5d.chunk.js": "/dmZhur/joke_generator/static/js/2.fd8c1a5d.chunk.js",
-    "static/js/2.fd8c1a5d.chunk.js.map": "/dmZhur/joke_generator/static/js/2.fd8c1a5d.chunk.js.map",
-    "index.html": "/dmZhur/joke_generator/index.html",
-    "static/js/2.fd8c1a5d.chunk.js.LICENSE.txt": "/dmZhur/joke_generator/static/js/2.fd8c1a5d.chunk.js.LICENSE.txt",
-    "static/media/chucknorris_logo.cabd9b85.png": "/dmZhur/joke_generator/static/media/chucknorris_logo.cabd9b85.png"
+    "main.js": "/joke_generator/static/js/main.fabcbd5b.chunk.js",
+    "main.js.map": "/joke_generator/static/js/main.fabcbd5b.chunk.js.map",
+    "runtime-main.js": "/joke_generator/static/js/runtime-main.de21593c.js",
+    "runtime-main.js.map": "/joke_generator/static/js/runtime-main.de21593c.js.map",
+    "static/js/2.fd8c1a5d.chunk.js": "/joke_generator/static/js/2.fd8c1a5d.chunk.js",
+    "static/js/2.fd8c1a5d.chunk.js.map": "/joke_generator/static/js/2.fd8c1a5d.chunk.js.map",
+    "index.html": "/joke_generator/index.html",
+    "static/js/2.fd8c1a5d.chunk.js.LICENSE.txt": "/joke_generator/static/js/2.fd8c1a5d.chunk.js.LICENSE.txt",
+    "static/media/chucknorris_logo.cabd9b85.png": "/joke_generator/static/media/chucknorris_logo.cabd9b85.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ce3578d.js",
+    "static/js/runtime-main.de21593c.js",
     "static/js/2.fd8c1a5d.chunk.js",
     "static/js/main.fabcbd5b.chunk.js"
   ]
