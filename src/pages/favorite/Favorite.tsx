@@ -51,7 +51,7 @@ const FavoritePage: FC = () => {
       <Typography variant="h3">Favorites jokes list</Typography>
       <Box className={classes.nav}>
         <NavigationButton
-          pathTo="/"
+          pathTo="/joke_generator"
           text="Go to the home page"
           variant="contained"
         />

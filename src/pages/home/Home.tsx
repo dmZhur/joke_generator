@@ -99,7 +99,7 @@ const HomePage: FC = () => {
             label="Fetch a new joke every 5 seconds"
           />
           <NavigationButton
-            pathTo="/favorites"
+            pathTo="/joke_generator/favorites"
             text="Go to favorites"
             variant="contained"
           />
