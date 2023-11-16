@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/dmZhur/joke_generator/static/js/main.e983e83c.chunk.js",
-    "main.js.map": "/dmZhur/joke_generator/static/js/main.e983e83c.chunk.js.map",
+    "main.js": "/dmZhur/joke_generator/static/js/main.fabcbd5b.chunk.js",
+    "main.js.map": "/dmZhur/joke_generator/static/js/main.fabcbd5b.chunk.js.map",
     "runtime-main.js": "/dmZhur/joke_generator/static/js/runtime-main.3ce3578d.js",
     "runtime-main.js.map": "/dmZhur/joke_generator/static/js/runtime-main.3ce3578d.js.map",
     "static/js/2.fd8c1a5d.chunk.js": "/dmZhur/joke_generator/static/js/2.fd8c1a5d.chunk.js",
@@ -13,6 +13,6 @@
   "entrypoints": [
     "static/js/runtime-main.3ce3578d.js",
     "static/js/2.fd8c1a5d.chunk.js",
-    "static/js/main.e983e83c.chunk.js"
+    "static/js/main.fabcbd5b.chunk.js"
   ]
 }
