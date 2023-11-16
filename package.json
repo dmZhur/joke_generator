@@ -2,7 +2,7 @@
   "name": "joke-generator",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/dmZhur/joke_generator",
+  "homepage": "https://dmzhur.github.io/joke_generator",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-react": "^7.23.3",
