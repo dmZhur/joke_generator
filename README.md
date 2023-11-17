@@ -7,7 +7,6 @@ To run locally
 ```
 yarn imstall
 yarn run start
-
 ```
 Application automatically move you to
 
@@ -25,6 +24,7 @@ For getting first 10 jokes I using this request
 In a response I get 52 jokes, I shuffle this array, and take first 10 elements after shuffled
 
 > const shuffled = action.payload.result?.sort(() => 0.5 - Math.random());
+
 > state.jokes = shuffled?.length ? shuffled.slice(0, 10) : [];
 
 
