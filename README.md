@@ -5,7 +5,7 @@ App is hosted on `https://dmzhur.github.io/joke_generator/`
 To run locally
 
 ```
-yarn imstall
+yarn install
 yarn run start
 ```
 Application automatically move you to
