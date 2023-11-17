@@ -29,6 +29,7 @@ In a response I get 52 jokes, I shuffle this array, and take first 10 elements a
 
 
 For geting new joke every 5 seconds I using this reqest
+
 `https://api.chucknorris.io/jokes/random`
 
 
