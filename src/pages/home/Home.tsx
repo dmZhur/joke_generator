@@ -26,6 +26,9 @@ import { messages } from '../../constants/messages';
 
 const useStyles = makeStyles(
   () => ({
+    wrap: {
+      width: '100%',
+    },
     list: {
       '&:nth-of-type(odd)': {
         backgroundColor: '#ebebeb',
@@ -104,7 +107,7 @@ const HomePage: FC = () => {
             variant="contained"
           />
         </Box>
-        <List>
+        <List className={classes.wrap}>
           {jokes.jokes?.map((item: Joke) => {
             return (
               <ListItem
