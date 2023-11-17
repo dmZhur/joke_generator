@@ -13,7 +13,8 @@ Application automatically move you to
 
 `http://localhost:3000/joke_generator`
 
-[screen](https://github.com/dmZhur/joke_generator/assets/9991770/ed7e98ab-acfa-4b2c-bd82-34d9534ff568)
+![screen](https://github.com/dmZhur/joke_generator/assets/9991770/1d6ae1a1-05bb-4d48-b77a-b74be0fc073e)
+
 
 ## Development details
 
@@ -23,10 +24,8 @@ For getting first 10 jokes I using this request
 
 In a response I get 52 jokes, I shuffle this array, and take first 10 elements after shuffled
 
-`
-const shuffled = action.payload.result?.sort(() => 0.5 - Math.random());
-state.jokes = shuffled?.length ? shuffled.slice(0, 10) : [];
-`
+> const shuffled = action.payload.result?.sort(() => 0.5 - Math.random());
+> state.jokes = shuffled?.length ? shuffled.slice(0, 10) : [];
 
 
 For geting new joke every 5 seconds I using this reqest
@@ -42,6 +41,5 @@ If you want to run unit tests locally please run:
 ```
 yarn run test
 ```
-
 
 
