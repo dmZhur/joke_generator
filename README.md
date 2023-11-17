@@ -13,7 +13,7 @@ Application automatically move you to
 
 `http://localhost:3000/joke_generator`
 
-![screen](https://github.com/dmZhur/joke_generator/assets/9991770/1d6ae1a1-05bb-4d48-b77a-b74be0fc073e)
+![Main-page](https://github.com/dmZhur/joke_generator/assets/9991770/1d6ae1a1-05bb-4d48-b77a-b74be0fc073e)
 
 
 ## Development details
